@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Heart Cakeshop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header / Navegación -->
+    <header>
+        <nav>
+            <div class="header-content">
+                <img src="./assets/LOGO-SWEET.png" alt="Logo de la Pastelería" class="logo">
+                <h1>Sweet Heart Cackeshop</h1>
+            </div>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección Principal / Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h2>¡Deliciosos postres al alcance de un click!</h2>
+            <p>Haz tu pedido ahora y disfruta de nuestras especialidades.</p>
+            <a href="#menu" class="cta-button">Ver Menú</a>
+        </div>
+    </section>
+
+    <!-- Menú de productos -->
+    <section id="menu" class="menu">
+        <h2>Nuestro Menú</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="./assets/torta-chocolate.jpg" alt="Torta de Chocolate">
+                <h3>Torta de Chocolate</h3>
+                <p>80.000</p>
+                <button class="order-button">Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="./assets/torta-zanahoria.png" alt="Torta de Zanahoria">
+                <h3>Torta de Zanahoria</h3>
+                <p>$90.000</p>
+                <button class="order-button">Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="./assets/torta-red-velvet.png" alt="Torta de Red Velvet">
+                <h3>Torta de Red Velvet</h3>
+                <p>$90.000</p>
+                <button class="order-button">Agregar al Carrito</button>
+            </div>
+            <div class="product">
+                <img src="./assets/torta-naranja-amapola.png" alt="Torta de Naranja y Amapola">
+                <h3>Torta de Naranja y Amapola</h3>
+                <p>$85.000</p>
+                <button class="order-button">Agregar al Carrito</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nosotros -->
+    <section id="nosotros" class="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una pastelería artesanal comprometida con la calidad y el buen gusto. Elaboramos cada receta con amor y pasión.</p>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contact">
+        <h2>Contáctanos</h2>
+        <form>
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo" required>
+            <textarea name="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sweet Heart Cakeshop. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
